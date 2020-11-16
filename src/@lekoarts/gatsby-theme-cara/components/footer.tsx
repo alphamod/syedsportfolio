@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Box, Flex, Link, useColorMode, jsx } from "theme-ui";
+import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
 
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
@@ -11,15 +11,14 @@ const Footer = () => {
   return (
     <Box as="footer" variant="footer">
       <button
-        sx={{ position:"fixed",bottom:"0",right:"0",variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
+        sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
         onClick={toggleColorMode}
         type="button"
         aria-label="Toggle dark mode"
       >
         {isDark ? `Light` : `Dark`}
       </button>
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
-      
+      Copyright &copy; {new Date().getFullYear()}. Syed Salman. All rights reserved.
     </Box>
   )
 }
