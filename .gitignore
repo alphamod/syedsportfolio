@@ -34,9 +34,9 @@ build/Release
 
 # Dependency directories
 node_modules
+!/node_modules/@lekoarts/gatsby-theme-cara/src/components/footer.tsx
 jspm_packages
 **/node_modules/**
-!/node_modules/@lekoarts/gatsby-theme-cara/src/components/footer.tsx
 
 # Typescript v1 declaration files
 typings/
