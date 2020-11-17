@@ -9,7 +9,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Syed Salman - Portfolio`,
+    "siteTitle": "Syed Salman",
+    "siteTitleAlt": "Syed Salman - Portfolio",
+    "siteHeadline": "Syed Salman - Full Stack Developer- Portfolio",
+    "siteUrl": "https://syedsportfolio.vercel.app",
+    "siteDescription": "Full Stack Developer Based in Chennai, India. \nTechnical Stack: MEAN, MERN, mySQL, & Python.",
+    "siteLanguage": "en",
+    "siteImage": "/banner.jpg",
+    "author": "Syed Salman"
   },
   plugins: [
     {
@@ -28,7 +35,7 @@ module.exports = {
       options: {
         name: `Syed Salman - Portfolio`,
         short_name: `Syed Salman`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        description: `Full Stack Developer Based in Chennai, India. \nTechnical Stack: MEAN, MERN, mySQL, & Python.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
