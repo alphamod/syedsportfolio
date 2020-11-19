@@ -18,7 +18,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
       factor={factor}
     />
     <Content speed={0.4} offset={offset + 0.2} factor={factor}>
-      <Inner>
+      <Inner><h1 sx={{fontSize:[7,8]}}>Projects</h1>
         <div
           sx={{
             display: `grid`,
