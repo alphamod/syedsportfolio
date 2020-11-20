@@ -18,8 +18,6 @@ import nodeUrl from "./skill-icons/node-js.png"
 import expressUrl from "./skill-icons/express.png"
 import mongoUrl from "./skill-icons/mongodb.png"
 import mysqlUrl from "./skill-icons/mysql.png"
-import socketUrl from "./skill-icons/socketio.png"
-import jwtUrl from "./skill-icons/jwt.png"
 import pythonUrl from "./skill-icons/python.png"
 
 const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
@@ -54,190 +52,164 @@ const Skills = ({ offset, factor = 1 }: { offset: number; factor?: number }) => 
       <Inner>
         <h1 sx={{ fontSize: [7, 8] }}>Skills</h1>
         <div className={styles.parDiv}>
-        <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${htmlUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>HTML 5</span>
-          </div>
+          <div className={styles.flip}>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${htmlUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>HTML 5</span>
+            </div>
           </div>
 
           <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${css3}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>CSS 3</span>
-          </div>
-          </div>
-
-          <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${bootstrapUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>Bootstrap 4</span>
-          </div>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${css3}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>CSS 3</span>
+            </div>
           </div>
 
           <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${javascriptUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>JavaScript</span>
-          </div>
-          </div>
-
-          <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${reactUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>React.js</span>
-          </div>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${bootstrapUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>Bootstrap 4</span>
+            </div>
           </div>
 
           <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${angularUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>Angular</span>
-          </div>
-          </div>
-
-          <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${nodeUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>Node.js</span>
-          </div>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${javascriptUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>JavaScript</span>
+            </div>
           </div>
 
           <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${expressUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>Express.js</span>
-          </div>
-          </div>
-
-          <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${mongoUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>MongoDB</span>
-          </div>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${reactUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>React.js</span>
+            </div>
           </div>
 
           <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${reduxUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>Redux</span>
-          </div>
-          </div>
-
-          <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${socketUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>Socket.io</span>
-          </div>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${angularUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>Angular</span>
+            </div>
           </div>
 
           <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${mysqlUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>MySQL</span>
-          </div>
-          </div>
-
-          <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${jwtUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>JWT</span>
-          </div>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${nodeUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>Node.js</span>
+            </div>
           </div>
 
           <div className={styles.flip}>
-          <div className={styles.front}>
-            <div sx={{
-              background: `url(${pythonUrl}) center no-repeat`,
-              height: "100%",
-              width: "auto"
-            }}></div>
-          </div>
-          <div className={styles.back}>
-            <span>Python</span>
-          </div>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${expressUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>Express.js</span>
+            </div>
           </div>
 
-          
+          <div className={styles.flip}>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${mongoUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>MongoDB</span>
+            </div>
           </div>
+
+          <div className={styles.flip}>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${reduxUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>Redux</span>
+            </div>
+          </div>
+
+          <div className={styles.flip}>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${mysqlUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>MySQL</span>
+            </div>
+          </div>
+
+          <div className={styles.flip}>
+            <div className={styles.front}>
+              <div sx={{
+                background: `url(${pythonUrl}) center no-repeat`,
+                height: "100%",
+                width: "auto"
+              }}></div>
+            </div>
+            <div className={styles.back}>
+              <span>Python</span>
+            </div>
+          </div>
+
+
+        </div>
       </Inner>
     </Content>
   </div>
