@@ -55,7 +55,7 @@
   text-align:center;
 }
 span{
-  display: table-cell;
+  display: flex;
   text-align: center !important;
   font-size: 2em;
   vertical-align: middle !important;
